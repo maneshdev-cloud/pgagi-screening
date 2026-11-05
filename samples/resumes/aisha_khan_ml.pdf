@@ -1,0 +1,20 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
+4 0 obj << /Length 1193 >> stream
+BT /F1 10 Tf 50 800 Td 14 TL (Aisha Khan) Tj T* (Email: aisha.khan@example.com | Pune, India) Tj T* () Tj T* (Summary) Tj T* (Final-year computer engineering student focused on machine learning and NLP.) Tj T* (Built course projects in text classification and image classification, with a) Tj T* (summer internship doing data analysis for a small fintech startup.) Tj T* () Tj T* (Skills) Tj T* (Python, Machine Learning, Deep Learning, TensorFlow, Keras, Scikit-learn,) Tj T* (NLP, Computer Vision, CNN, SQL, Statistics, Data Analysis, Git) Tj T* () Tj T* (Projects) Tj T* (- Sentiment analysis on product reviews: cleaned 40k reviews, compared Naive) Tj T* (  Bayes, logistic regression and a small neural network; wrote up why the) Tj T* (  simple models were hard to beat. Used cross-validation throughout.) Tj T* (- Plant disease image classification with a CNN built in Keras; dataset) Tj T* (  augmentation to handle class imbalance.) Tj T* (- Payment fraud EDA during internship: exploratory data analysis on) Tj T* (  transaction logs, found leakage in one feature the team had been using.) Tj T* () Tj T* (Education) Tj T* (B.E. Computer Engineering, 2023-2027 \(expected\)) Tj T* ET
+endstream endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001486 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+1556
+%%EOF

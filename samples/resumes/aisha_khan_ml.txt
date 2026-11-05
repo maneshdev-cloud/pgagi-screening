@@ -1,0 +1,23 @@
+Aisha Khan
+Email: aisha.khan@example.com | Pune, India
+
+Summary
+Final-year computer engineering student focused on machine learning and NLP.
+Built course projects in text classification and image classification, with a
+summer internship doing data analysis for a small fintech startup.
+
+Skills
+Python, Machine Learning, Deep Learning, TensorFlow, Keras, Scikit-learn,
+NLP, Computer Vision, CNN, SQL, Statistics, Data Analysis, Git
+
+Projects
+- Sentiment analysis on product reviews: cleaned 40k reviews, compared Naive
+  Bayes, logistic regression and a small neural network; wrote up why the
+  simple models were hard to beat. Used cross-validation throughout.
+- Plant disease image classification with a CNN built in Keras; dataset
+  augmentation to handle class imbalance.
+- Payment fraud EDA during internship: exploratory data analysis on
+  transaction logs, found leakage in one feature the team had been using.
+
+Education
+B.E. Computer Engineering, 2023-2027 (expected)

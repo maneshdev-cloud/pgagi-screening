@@ -1,0 +1,23 @@
+Rohan Mehta
+Email: rohan.mehta@example.com | Mumbai, India
+
+Summary
+Full stack developer intern candidate. I build React and Next.js frontends
+backed by Python APIs, and I like shipping small complete products.
+
+Skills
+TypeScript, JavaScript, React, Next.js, Python, FastAPI, Flask, REST API,
+SQL, PostgreSQL, Supabase, Git, Docker, Vercel, Testing, Pytest
+
+Projects
+- Clinic appointment app: Next.js + TypeScript frontend, FastAPI backend,
+  PostgreSQL via Supabase. Row-level security, double-booking prevention with
+  a database transaction, 120+ automated tests passing.
+- Restaurant ordering site for a local business: React frontend, Flask API,
+  online payments, deployed on Vercel and Render.
+- Personal RAG chatbot: retrieval augmented generation over course PDFs using
+  embeddings and a vector database, answers cite the source chunk.
+
+Experience
+Freelance web developer, 2025 - present: landing pages and small business
+sites for local clients.
