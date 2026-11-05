@@ -1,8 +1,16 @@
-"""Runtime configuration, all from environment variables."""
+"""Runtime configuration, all from environment variables.
+
+Values can come from the shell or from a backend/.env file (loaded here
+via python-dotenv, which is in requirements.txt).
+"""
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+load_dotenv(BASE_DIR / ".env")
 
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{BASE_DIR / 'screening.db'}")
 KB_DIR = Path(os.getenv("KB_DIR", BASE_DIR / "data" / "kb"))

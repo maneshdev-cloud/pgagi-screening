@@ -102,13 +102,25 @@ def build_plan(profile: dict, role, retriever, total: int = None) -> dict:
     return {"query": query, "questions": plan}
 
 
+def _strip_anchor(question: str) -> str:
+    """Remove the 'Your resume mentions X.' opener build_plan may have added,
+    so an asked question can be compared with the raw probe questions."""
+    prefix = "Your resume mentions "
+    if question.startswith(prefix):
+        dot = question.find(". ")
+        if dot != -1:
+            return question[dot + 2:]
+    return question
+
+
 def pick_followup(answer: str, chunk_questions: list, asked: set) -> str | None:
     """A follow-up is just the next unused probe question on the same chunk,
     chosen when the answer is long enough to suggest the candidate can go
     deeper. Simple, but it keeps the session continuous."""
     if len(answer.split()) < 25:
         return None
+    asked_plain = {_strip_anchor(q) for q in asked}
     for q in chunk_questions:
-        if q not in asked:
+        if q not in asked_plain:
             return q
     return None

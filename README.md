@@ -108,8 +108,10 @@ what the UI displays as the question's grounding.
 ## Configuration
 
 All configuration is via environment variables - see `.env.example`.
-`DATABASE_URL`, `KB_DIR`, `QUESTIONS_PER_SESSION`, `FRONTEND_ORIGIN`, and
-optionally `GROQ_API_KEY` / `OPENAI_API_KEY` / `LLM_MODEL`.
+Backend: `DATABASE_URL`, `KB_DIR`, `SAMPLES_DIR`,
+`QUESTIONS_PER_SESSION`, `FRONTEND_ORIGIN`, and optionally `GROQ_API_KEY` /
+`OPENAI_API_KEY` / `LLM_MODEL` (a `backend/.env` file is loaded if present).
+Frontend: `NEXT_PUBLIC_API_URL` (in `frontend/.env.local`).
 
 ## Project layout
 
